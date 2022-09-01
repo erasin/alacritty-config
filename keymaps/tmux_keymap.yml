@@ -1,0 +1,61 @@
+# scrolling:
+  # history: 0 # 禁用滚动
+
+key_bindings:
+  
+  ## 使用 `xxd -psd` 来获取键盘输入的值
+  ## 或者参照 <https://en.wikipedia.org/wiki/ASCII>
+  # | ^b / C-b  | 02
+  # | esc       | 1b
+  # | hjkl      | 68 6a 6b 6c
+  # | HJKL      | 48 4a 4b 4c
+
+  # Tmux配置  # https://github.com/gpakosz/.tmux
+
+  # - { key: S, mods: ALt, chars: "\x02s" } # ^b s  
+
+  - { key: LBracket, mods: Command,       chars: "\x02\x5b" }   # ^b [ for scroll mode, use q exit
+  - { key: T,        mods: Command,       chars: "\x02\x63" }   # ^b c 新建 tab
+  - { key: W, mods: Command, chars: "\x02x" } # ^b x
+
+  - { key: M, mods: Command,       chars: "\x02w" }   # ^b s 会话列表 session-list, ^b w choose-tree -Zw
+  - { key: M, mods: Command|Shift, chars: "\x02t" }   # ^b t 切换状态栏
+
+  # 切换标签
+  - { key: J,        mods: Command,       chars: "\x02\x08" }   # ^b ^h 切换 tab prev
+  - { key: K,        mods: Command,       chars: "\x02\x0c" }   # ^b ^l 切换 tab next
+  - { key: Tab,      mods: ALT,           chars: "\x02\x09" }   # ^b tab
+  
+  # - { key: Comma,      mods: Control|Shift,           chars: "\x02\x2e" }   # ^b ^>
+  # - { key: Period,      mods: Control|Shift,           chars: "\x02\x2c" }   # ^b ^<
+
+  # 新建小窗口
+  - { key: D,        mods: Command,       chars: "\x02\x5f" }   # ^b _ v 水平窗口
+  - { key: D,        mods: Command|Shift, chars: "\x02\x2d" }   # ^b - h 垂直窗口
+
+
+  # 切换小窗口
+  - { key: H, mods: Alt, chars: "\x02\x68\x1b" } # ^b h  # 切换pane
+  - { key: J, mods: Alt, chars: "\x02\x6a\x1b" } # ^b j
+  - { key: K, mods: Alt, chars: "\x02\x6b\x1b" } # ^b k
+  - { key: L, mods: Alt, chars: "\x02\x6c\x1b" } # ^b l
+  
+  # 调整小窗口尺寸
+  - { key: H, mods: Alt|Shift, chars: "\x02\x48" } # ^b H  # resize
+  - { key: J, mods: Alt|Shift, chars: "\x02\x4a" } # ^b J
+  - { key: K, mods: Alt|Shift, chars: "\x02\x4b" } # ^b K
+  - { key: L, mods: Alt|Shift, chars: "\x02\x4c" } # ^b L
+  
+  - { key: Key1,     mods: Command,       chars: "\x021"    }   # ^b 1 切换 tab1
+  - { key: Key2,     mods: Command,       chars: "\x022"    }   # ^b 2
+  - { key: Key3,     mods: Command,       chars: "\x023"    }   # ^b 3
+  - { key: Key4,     mods: Command,       chars: "\x024"    }   # ^b 4
+  - { key: Key5,     mods: Command,       chars: "\x025"    }   # ^b 5
+  - { key: Key6,     mods: Command,       chars: "\x026"    }   # ^b 6
+  - { key: Key7,     mods: Command,       chars: "\x027"    }   # ^b 7
+  - { key: Key8,     mods: Command,       chars: "\x028"    }   # ^b 8
+  - { key: Key9,     mods: Command,       chars: "\x029"    }   # ^b 9
+  
+# ^b , window rename
+# ^b [
+#
