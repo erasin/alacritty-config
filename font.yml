@@ -27,7 +27,10 @@ font:
   glyph_offset:
     x: 0
     y: 4
-    
+
+  # characters (Unicode points 2500 - 259f).
+  builtin_box_drawing: true    
+
 # macos 字体兼容处理
 # 0.11.0 dev 去除了 `font.use_thin_strokes` 读取系统 AppleFontSmoothing 设定
 # ```sh

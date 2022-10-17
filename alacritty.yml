@@ -12,7 +12,7 @@ env:
 
 window:
   dimensions:
-    columns: 191
+    columns: 192
     lines: 46
   dynamic_title: true
   padding:

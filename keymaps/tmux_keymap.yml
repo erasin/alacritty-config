@@ -59,3 +59,6 @@ key_bindings:
 # ^b , window rename
 # ^b [
 #
+
+# other
+  # - { key: S, mods: Command, chars: "\x02\x4c" } # ^s
