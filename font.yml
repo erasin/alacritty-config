@@ -1,19 +1,20 @@
+# https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.2.2
 font:
 
   normal:
-    family: "CascadiaCode Nerd Font"
+    family: "CaskaydiaCove Nerd Font"
     style: Regular
 
   bold:
-    family: "CascadiaCode Nerd Font"
+    family: "CaskaydiaCove Nerd Font"
     style: Bold
 
   italic:
-    family: "CascadiaCode Nerd Font"
+    family: "CaskaydiaCove Nerd Font"
     style: Italic
   
   bold_italic:
-    family: "CascadiaCode Nerd Font"
+    family: "CaskaydiaCove Nerd Font"
     style: Bold Italic
 
   size: 13.
@@ -29,7 +30,7 @@ font:
     y: 4
 
   # characters (Unicode points 2500 - 259f).
-  builtin_box_drawing: true    
+  # builtin_box_drawing: true    
 
 # macos 字体兼容处理
 # 0.11.0 dev 去除了 `font.use_thin_strokes` 读取系统 AppleFontSmoothing 设定

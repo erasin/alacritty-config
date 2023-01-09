@@ -26,14 +26,14 @@ font:
   size: 14
 
 # 这里使用了tmux
-shell:
-  program: /bin/zsh
-  args:
-    - -l
-    - -c
-    - "tmux attach || tmux"
+# shell:
+#   program: /bin/zsh
+#   args:
+#     - -l
+#     - -c
+#     - "tmux attach || tmux"
 
-alt_send_esc: false
+alt_send_esc: true
 
 mouse:
   hide_when_typing: true
@@ -47,3 +47,7 @@ key_bindings:
   # Vi Mode 
   - { key: Back, action: ReceiveChar} # 输入法backspace会删除已输入内容 bug issues:1606
   - { key: Space,  mods: Shift|Control, mode: ~Search,    action: ToggleViMode            }
+
+debug:
+  persisten_logging: true
+  log_level: Warn
