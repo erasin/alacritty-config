@@ -22,18 +22,25 @@ window:
   # mac
   decorations: buttonless
 
+  # 8a838710e37665f5bdeb8c01d2f1d3e6fec976a6
+  # 更新了winit 后支持
+  # Make `Option` key behave as `Alt` (macOS only):
+  #   - OnlyLeft
+  #   - OnlyRight
+  #   - Both
+  #   - None (default  
+  options_as_alt: OnlyLeft
+
 font:
   size: 14
 
 # 这里使用了tmux
-# shell:
-#   program: /bin/zsh
-#   args:
-#     - -l
-#     - -c
-#     - "tmux attach || tmux"
-
-alt_send_esc: true
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
 
 mouse:
   hide_when_typing: true
