@@ -13,7 +13,7 @@ window:
   dynamic_title: true
   dynamic_padding: true
   decorations: buttonless
-
+  options_as_alt: OnlyLeft
 
 font:
   size: 14
@@ -21,8 +21,8 @@ font:
 mouse:
   hide_when_typing: true
 
-key_bindings:
-  - { key: Back, action:  ReceiveChar} # 输入法backspace会删除已输入内容 bug issues:1606
+# key_bindings:
+#   - { key: Back, action:  ReceiveChar} # 输入法backspace会删除已输入内容 bug issues:1606
 
 debug:
   persisten_logging: true

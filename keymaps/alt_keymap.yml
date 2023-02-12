@@ -5,7 +5,7 @@
 # 修改 alt_send_esc = false 可以解决，不能解决情况下可以使用 ukelele 修改键盘布局
 # 应该是mac的外接键盘布局和修饰键盘导致
 # https://donsnotes.com/tech/charsets/ascii.html
-# alt-u/i/~/n 失效的问题
+# alt-u/i/~/n 失效的问题, (最新版本8a838710e37665f5bdeb8c01d2f1d3e6fec976a6 已修复)
 # It can change the keyboard  layout by [ukelele](https://scripts.sil.org/ukelele) 
 # https://github.com/alacritty/alacritty/issues/458#issuecomment-562992719
 # [macos help: Use dead keys](https://support.apple.com/en-hk/guide/mac-help/mh27474/mac) 

@@ -13,10 +13,10 @@ env:
 window:
   dimensions:
     columns: 192
-    lines: 46
+    lines: 45
   dynamic_title: true
   padding:
-    x: 0
+    x: 2
     y: 0
   dynamic_padding: true
   # mac
@@ -52,7 +52,7 @@ mouse_bindings:
 
 key_bindings:
   # Vi Mode 
-  - { key: Back, action: ReceiveChar} # 输入法backspace会删除已输入内容 bug issues:1606
+  # - { key: Back, action: ReceiveChar} # 输入法backspace会删除已输入内容 bug issues:1606
   - { key: Space,  mods: Shift|Control, mode: ~Search,    action: ToggleViMode            }
 
 debug:
