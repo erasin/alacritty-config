@@ -17,13 +17,13 @@ key_bindings:
 
   # - { key: S, mods: ALt, chars: "\x01s" } # leader s  
 
-  - { key: LBracket, mods: Command,       chars: "\x01\x5b\x1b" }   # leader [ for scroll mode, use q exit
-  - { key: T,        mods: Command,       chars: "\x01\x63\x1b" }   # leader c 新建 tab
-  - { key: W, mods: Command, chars: "\x01x\x1b" } # leader x
+  - { key: LBracket, mods: Command,       chars: "\x01\x5b" }   # leader [ for scroll mode, use q exit
+  - { key: T,        mods: Command,       chars: "\x01\x63" }   # leader c 新建 tab
+  - { key: W, mods: Command, chars: "\x01x" } # leader x
 
-  - { key: M, mods: Command,       chars: "\x01w\x1b" }   # leader s 会话列表 session-list, leader w choose-tree -Zw
+  - { key: M, mods: Command,       chars: "\x01w" }   # leader s 会话列表 session-list, leader w choose-tree -Zw
   # - { key: M, mods: Command|Shift, chars: "\x01e" }   # leader e 切换状态栏
-  - { key: M, mods: Command|Shift, chars: "\x01m\x1b" }     # leader m 网格切换最大最小
+  - { key: M, mods: Command|Shift, chars: "\x01m" }     # leader m 网格切换最大最小
 
   # 切换标签
   - { key: J,        mods: Command,       chars: "\x01\x08\x1b" }   # leader ^h 切换 tab prev
@@ -34,8 +34,8 @@ key_bindings:
   # - { key: Period,      mods: Control|Shift,           chars: "\x01\x2c" }   # leader ^<
 
   # 新建小窗口
-  - { key: D,        mods: Command,       chars: "\x01\x7c\x1b" }   # leader | v 水平窗口
-  - { key: D,        mods: Command|Shift, chars: "\x01\x2d\x1b" }   # leader - h 垂直窗口
+  - { key: D,        mods: Command,       chars: "\x01\x7c" }   # leader | v 水平窗口
+  - { key: D,        mods: Command|Shift, chars: "\x01\x2d" }   # leader - h 垂直窗口
 
 
   # 切换小窗口

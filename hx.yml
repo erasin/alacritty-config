@@ -20,10 +20,3 @@ font:
 
 mouse:
   hide_when_typing: true
-
-# key_bindings:
-#   - { key: Back, action:  ReceiveChar} # 输入法backspace会删除已输入内容 bug issues:1606
-
-# debug:
-#   persisten_logging: true
-#   log_level: Debug
