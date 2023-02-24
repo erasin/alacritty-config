@@ -1,5 +1,5 @@
 import:
-  - ~/.config/alacritty/themes/oneLight.yml
+  - ~/.config/alacritty/themes/oneDark.yml
   - ~/.config/alacritty/keymaps/tmux_keymap.yml
   - ~/.config/alacritty/keymaps/alt_keymap.yml
   - ~/.config/alacritty/font.yml
