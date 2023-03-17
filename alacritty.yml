@@ -38,7 +38,7 @@ window:
 font:
   size: 14
 
-# # 这里使用了tmux
+# 这里使用了tmux
 shell:
   program: /bin/zsh
   args:
