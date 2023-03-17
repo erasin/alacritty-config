@@ -1,5 +1,5 @@
 import:
-  - ~/.config/alacritty/themes/oneDark.yml
+  - ~/.config/alacritty/themes/oneLight.yml
   - ~/.config/alacritty/keymaps/tmux_keymap.yml
   - ~/.config/alacritty/keymaps/alt_keymap.yml
   - ~/.config/alacritty/font.yml
@@ -13,14 +13,18 @@ env:
 window:
   dimensions:
     columns: 192
-    lines: 45
+    lines: 42
   dynamic_title: true
   padding:
     x: 2
     y: 0
   dynamic_padding: true
   # mac
-  decorations: buttonless
+  # decorations: buttonless
+  decorations: transparent
+
+  # 按照单元格进行窗口变更
+  resize_increments: true
 
   # 8a838710e37665f5bdeb8c01d2f1d3e6fec976a6
   # 更新了winit 后支持
@@ -34,7 +38,7 @@ window:
 font:
   size: 14
 
-# 这里使用了tmux
+# # 这里使用了tmux
 shell:
   program: /bin/zsh
   args:
@@ -42,6 +46,13 @@ shell:
     - -c
     - "tmux attach || tmux"
 
+bell:
+  duration: 3
+  color: '#D50000'
+  command:
+    program: bash
+    args: ["~/.local/bin/notify-send","Alacritty","take error!"]
+    
 mouse:
   hide_when_typing: true
 

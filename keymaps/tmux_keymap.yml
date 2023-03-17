@@ -23,7 +23,7 @@ key_bindings:
 
   - { key: M, mods: Command,       chars: "\x01w" }   # leader s 会话列表 session-list, leader w choose-tree -Zw
   # - { key: M, mods: Command|Shift, chars: "\x01e" }   # leader e 切换状态栏
-  - { key: M, mods: Command|Shift, chars: "\x01m" }     # leader m 网格切换最大最小
+  - { key: M, mods: Command|Shift, chars: "\x01m\x1b" }     # leader m 网格切换最大最小
 
   # 切换标签
   - { key: J,        mods: Command,       chars: "\x01\x08\x1b" }   # leader ^h 切换 tab prev
@@ -59,7 +59,7 @@ key_bindings:
   - { key: Key7,     mods: Command,       chars: "\x017\x1b"    }   # leader 7
   - { key: Key8,     mods: Command,       chars: "\x018\x1b"    }   # leader 8
   - { key: Key9,     mods: Command,       chars: "\x019\x1b"    }   # leader 9
-  
+
 # leader , window rename
 # leader [ into view
 #
