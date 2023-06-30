@@ -17,32 +17,31 @@ key_bindings:
 
   # - { key: S, mods: ALt, chars: "\x01s" } # leader s  
 
-  - { key: LBracket, mods: Command,       chars: "\x01\x5b" }   # leader [ for scroll mode, use q exit
-  - { key: T,        mods: Command,       chars: "\x01\x63" }   # leader c 新建 tab
-  - { key: W, mods: Command, chars: "\x01x" } # leader x
+  - { key: LBracket, mods: Alt,       chars: "\x01\x5b" }   # leader [ for scroll mode, use q exit
+  - { key: T,        mods: Alt,       chars: "\x01\x63" }   # leader c 新建 tab
+  - { key: W, mods: Alt, chars: "\x01x" } # leader x
 
-  - { key: M, mods: Command,       chars: "\x01w" }   # leader s 会话列表 session-list, leader w choose-tree -Zw
-  # - { key: M, mods: Command|Shift, chars: "\x01e" }   # leader e 切换状态栏
-  - { key: M, mods: Command|Shift, chars: "\x01m\x1b" }     # leader m 网格切换最大最小
+  - { key: M, mods: Alt,       chars: "\x01w" }   # leader s 会话列表 session-list, leader w choose-tree -Zw
+  # - { key: M, mods: Alt|Shift, chars: "\x01e" }   # leader e 切换状态栏
+  - { key: M, mods: Alt|Shift, chars: "\x01m\x1b" }     # leader m 网格切换最大最小
 
   # 切换标签
-  - { key: J,        mods: Command,       chars: "\x01\x08\x1b" }   # leader ^h 切换 tab prev
-  - { key: K,        mods: Command,       chars: "\x01\x0c\x1b" }   # leader ^l 切换 tab next
+  - { key: J,        mods: Alt,       chars: "\x01\x08\x1b" }   # leader ^h 切换 tab prev
+  - { key: K,        mods: Alt,       chars: "\x01\x0c\x1b" }   # leader ^l 切换 tab next
   - { key: Tab,      mods: ALT,           chars: "\x01\x09\x1b" }   # leader tab
   
   # - { key: Comma,      mods: Control|Shift,           chars: "\x01\x2e" }   # leader ^>
   # - { key: Period,      mods: Control|Shift,           chars: "\x01\x2c" }   # leader ^<
 
   # 新建小窗口
-  - { key: D,        mods: Command,       chars: "\x01\x7c" }   # leader | v 水平窗口
-  - { key: D,        mods: Command|Shift, chars: "\x01\x2d" }   # leader - h 垂直窗口
-
+  - { key: D,        mods: Alt,       chars: "\x01\x7c" }   # leader | v 水平窗口
+  - { key: D,        mods: Alt|Shift, chars: "\x01\x2d" }   # leader - h 垂直窗口
 
   # 切换小窗口
-  - { key: H, mods: Alt, chars: "\x01\x68\x1b" } # leader h  # 切换pane
-  - { key: J, mods: Alt, chars: "\x01\x6a\x1b" } # leader j
-  - { key: K, mods: Alt, chars: "\x01\x6b\x1b" } # leader k
-  - { key: L, mods: Alt, chars: "\x01\x6c\x1b" } # leader l
+  - { key: H, mods: Alt|Control, chars: "\x01\x68\x1b" } # leader h  # 切换pane
+  - { key: J, mods: Alt|Control, chars: "\x01\x6a\x1b" } # leader j
+  - { key: K, mods: Alt|Control, chars: "\x01\x6b\x1b" } # leader k
+  - { key: L, mods: Alt|Control, chars: "\x01\x6c\x1b" } # leader l
   
   # 调整小窗口尺寸
   - { key: H, mods: Alt|Shift, chars: "\x01\x48\x1b" } # leader H  # resize
@@ -50,15 +49,15 @@ key_bindings:
   - { key: K, mods: Alt|Shift, chars: "\x01\x4b\x1b" } # leader K
   - { key: L, mods: Alt|Shift, chars: "\x01\x4c\x1b" } # leader L
   
-  - { key: Key1,     mods: Command,       chars: "\x011\x1b"    }   # leader 1 切换 tab1
-  - { key: Key2,     mods: Command,       chars: "\x012\x1b"    }   # leader 2
-  - { key: Key3,     mods: Command,       chars: "\x013\x1b"    }   # leader 3
-  - { key: Key4,     mods: Command,       chars: "\x014\x1b"    }   # leader 4
-  - { key: Key5,     mods: Command,       chars: "\x015\x1b"    }   # leader 5
-  - { key: Key6,     mods: Command,       chars: "\x016\x1b"    }   # leader 6
-  - { key: Key7,     mods: Command,       chars: "\x017\x1b"    }   # leader 7
-  - { key: Key8,     mods: Command,       chars: "\x018\x1b"    }   # leader 8
-  - { key: Key9,     mods: Command,       chars: "\x019\x1b"    }   # leader 9
+  - { key: Key1,     mods: Alt,       chars: "\x011\x1b"    }   # leader 1 切换 tab1
+  - { key: Key2,     mods: Alt,       chars: "\x012\x1b"    }   # leader 2
+  - { key: Key3,     mods: Alt,       chars: "\x013\x1b"    }   # leader 3
+  - { key: Key4,     mods: Alt,       chars: "\x014\x1b"    }   # leader 4
+  - { key: Key5,     mods: Alt,       chars: "\x015\x1b"    }   # leader 5
+  - { key: Key6,     mods: Alt,       chars: "\x016\x1b"    }   # leader 6
+  - { key: Key7,     mods: Alt,       chars: "\x017\x1b"    }   # leader 7
+  - { key: Key8,     mods: Alt,       chars: "\x018\x1b"    }   # leader 8
+  - { key: Key9,     mods: Alt,       chars: "\x019\x1b"    }   # leader 9
 
 # leader , window rename
 # leader [ into view

@@ -1,0 +1,134 @@
+[[keyboard.bindings]]
+chars = "\u0001["
+key = "LBracket"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001c"
+key = "T"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001x"
+key = "W"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001w"
+key = "M"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001m\u001B"
+key = "M"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001\b\u001B"
+key = "J"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001\f\u001B"
+key = "K"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001\t\u001B"
+key = "Tab"
+mods = "ALT"
+
+[[keyboard.bindings]]
+chars = "\u0001|"
+key = "D"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001-"
+key = "D"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001h\u001B"
+key = "H"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u0001j\u001B"
+key = "J"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u0001k\u001B"
+key = "K"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u0001l\u001B"
+key = "L"
+mods = "Alt|Control"
+
+[[keyboard.bindings]]
+chars = "\u0001H\u001B"
+key = "H"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001J\u001B"
+key = "J"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001K\u001B"
+key = "K"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0001L\u001B"
+key = "L"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u00011\u001B"
+key = "Key1"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00012\u001B"
+key = "Key2"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00013\u001B"
+key = "Key3"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00014\u001B"
+key = "Key4"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00015\u001B"
+key = "Key5"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00016\u001B"
+key = "Key6"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00017\u001B"
+key = "Key7"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00018\u001B"
+key = "Key8"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00019\u001B"
+key = "Key9"
+mods = "Alt"

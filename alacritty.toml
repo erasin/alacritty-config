@@ -1,0 +1,61 @@
+import = [
+  "/home/erasin/.config/alacritty/themes/oneDark.toml",
+  "/home/erasin/.config/alacritty/keymaps/tmux_keymap.toml",
+  "/home/erasin/.config/alacritty/keymaps/alt_keymap.toml",
+  "/home/erasin/.config/alacritty/font.toml"
+  ]
+
+[debug]
+log_level = "Warn"
+
+[env]
+TERM = "xterm-256color"
+# WAYLAND_DISPLAY = "alacritty"
+
+[shell]
+program = "/usr/bin/zsh"
+args = [
+  "-l",
+  "-c",
+  "tmux attach || tmux"
+]
+
+[font]
+size = 11
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "Space"
+mode = "~Search"
+mods = "Shift|Control"
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "ExpandSelection"
+mouse = "Right"
+
+[[mouse.bindings]]
+action = "ExpandSelection"
+mods = "Control"
+mouse = "Right"
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mode = "~Vi"
+mouse = "Middle"
+
+[window]
+dynamic_padding = true
+dynamic_title = true
+resize_increments = true
+decorations = "Full"
+
+[window.dimensions]
+columns = 192
+lines = 42
+
+[window.padding]
+x = 2
+y = 0
