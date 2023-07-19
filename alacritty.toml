@@ -53,7 +53,7 @@ resize_increments = true
 decorations = "Full"
 
 [window.dimensions]
-columns = 192
+columns = 172
 lines = 42
 
 [window.padding]
