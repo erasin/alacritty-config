@@ -16,7 +16,7 @@ env:
 window:
   dimensions:
     columns: 192
-    lines: 42
+    lines: 52
   dynamic_title: true
   padding:
     x: 2
@@ -26,8 +26,11 @@ window:
   # decorations: buttonless
   # decorations: transparent
 
+  # linux
+  decorations: none
+
   # 按照单元格进行窗口变更
-  resize_increments: true
+  # resize_increments: true
 
   # 8a838710e37665f5bdeb8c01d2f1d3e6fec976a6
   # 更新了winit 后支持
@@ -37,9 +40,6 @@ window:
   #   - Both
   #   - None (default  
   # options_as_alt: OnlyLeft
-
-font:
-  size: 11
 
 # 这里使用了tmux
 shell:
@@ -52,10 +52,10 @@ shell:
 mouse:
   hide_when_typing: true
 
-mouse_bindings:
-  - { mouse: Right,                 action: ExpandSelection }
-  - { mouse: Right,  mods: Control, action: ExpandSelection }
-  - { mouse: Middle, mode: ~Vi,     action: PasteSelection  }
+# mouse_bindings:
+#   - { mouse: Right,                 action: ExpandSelection }
+#   - { mouse: Right,  mods: Control, action: ExpandSelection }
+#   - { mouse: Middle, mode: ~Vi,     action: PasteSelection  }
 
 key_bindings:
   # Vi Mode 

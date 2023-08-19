@@ -1,33 +1,26 @@
 # https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.2.2
+dpi:
+  x: 96.0
+  y: 96.0
+
+draw_bold_text_with_bright_colors: true
+
 font:
 
   normal:
-    family: "CaskaydiaCove Nerd Font"
-    style: Regular
+    family: "Cascadia Code"
 
-  bold:
-    family: "CaskaydiaCove Nerd Font"
-    style: Bold
-
-  italic:
-    family: "CaskaydiaCove Nerd Font"
-    style: Italic
-  
-  bold_italic:
-    family: "CaskaydiaCove Nerd Font"
-    style: Bold Italic
-
-  size: 13.
+  size: 12.
 
   # 字体偏移,为字符外围轮廓偏移
   offset:
     x: 0
-    y: 8
+    y: 2
   
   # 字符渲染偏移，字符在轮廓内的偏移
   glyph_offset:
     x: 0
-    y: 4
+    y: 1
 
   # characters (Unicode points 2500 - 259f).
   # builtin_box_drawing: true    
