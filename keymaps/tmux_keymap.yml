@@ -33,8 +33,8 @@ key_bindings:
   # - { key: Period,      mods: Control|Shift,           chars: "\x01\x2c" }   # leader ^<
 
   # 新建小窗口
-  - { key: D,        mods: Alt,       chars: "\x01\x2d\x1b" }   # leader - v 水平窗口
-  - { key: D,        mods: Alt|Shift, chars: "\x01\x5f\x1b" }   # leader _ h 垂直窗口
+  - { key: D,        mods: Alt,       chars: "\x01\x2d" }   # leader - v 水平窗口
+  - { key: D,        mods: Alt|Shift, chars: "\x01\x5f" }   # leader _ h 垂直窗口
 
   # 切换小窗口
   - { key: H, mods: Alt|Control, chars: "\x01\x68\x1b" } # leader h  # 切换pane
