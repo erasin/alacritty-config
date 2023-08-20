@@ -1,7 +1,7 @@
 import:
   - ~/.config/alacritty/themes/oneDark.yml
   - ~/.config/alacritty/keymaps/tmux_keymap.yml
-  - ~/.config/alacritty/keymaps/alt_keymap.yml
+  # - ~/.config/alacritty/keymaps/alt_keymap.yml # add on mac
   - ~/.config/alacritty/font.yml
 
 #
@@ -24,7 +24,6 @@ window:
   dynamic_padding: true
   # mac
   # decorations: buttonless
-  # decorations: transparent
 
   # linux
   decorations: none
@@ -57,10 +56,10 @@ mouse:
 #   - { mouse: Right,  mods: Control, action: ExpandSelection }
 #   - { mouse: Middle, mode: ~Vi,     action: PasteSelection  }
 
-key_bindings:
+# key_bindings:
   # Vi Mode 
   # - { key: Back, action: ReceiveChar} # 输入法backspace会删除已输入内容 bug issues:1606
-  - { key: Space,  mods: Shift|Control, mode: ~Search,    action: ToggleViMode            }
+  # - { key: Space,  mods: Shift|Control, mode: ~Search,    action: ToggleViMode            }
 
 debug:
   log_level: Warn
