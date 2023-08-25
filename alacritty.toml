@@ -1,0 +1,39 @@
+import = [
+  "~/.config/alacritty/themes/oneDark.toml",
+  "~/.config/alacritty/keymaps/tmux_keymap.toml",
+]
+
+[debug]
+log_level = "Warn"
+
+[env]
+TERM = "xterm-256color"
+
+[mouse]
+hide_when_typing = true
+
+[shell]
+args = ["-l", "-c", "tmux attach || tmux"]
+program = "/bin/bash"
+
+[window]
+decorations = "none"
+dynamic_padding = true
+dynamic_title = true
+
+[window.dimensions]
+columns = 192
+lines = 52
+
+[window.padding]
+x = 2
+y = 0
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font]
+normal = { family = "Cascadia Code" }
+size = 12.0
+glyph_offset = { x = 0, y = 1 }
+offset = { x = 0, y = 2 }
