@@ -1,24 +1,26 @@
 # alacritty 使用
 
+0.13 版本后使用 toml 格式的配置文件
+
+
 ## 配置和使用
 
-- 默认配置文件 `~/.config/alacritty/alacritty.yml`
+- 默认配置文件 `~/.config/alacritty/alacritty.toml`
 - 配置模板文件需要到官方库中下载 [alacritty.yml](https://raw.githubusercontent.com/alacritty/alacritty/master/alacritty.yml)
 - 配置支持 `import` 导入, 这样就可以将配置进行部分模块化, 重新配置会自动覆盖选项,配置需要绝对目录或者用HOME目录 `~/`开始.
 - 配置 `live_config_reload`, 自动重载默认开启
 
 ```
 .
-├── alacritty.yml
-├── font.yml
-├── hx.yml
+├── alacritty.toml
+├── hx.toml
 ├── keymaps
-│  ├── alt_keymap.yml
-│  └── tmux_keymap.yml
+│  ├── alt_keymap.toml
+│  └── tmux_keymap.toml
 ├── readme.md
 └── themes
-   ├── oneDark.yml
-   └── oneLight.yml
+   ├── oneDark.toml
+   └── oneLight.toml
 ```
 
 
@@ -58,6 +60,27 @@ font:
     x: 0
     y: 4
 
+```
+
+### linux 下字体配置
+
+配置文件 `.config/fontconfig/fonts.conf`
+
+下面是 mono 字体的配置处理，这样可以临时解决在 alacritty 中的其他的字体的配置，比如中文字体和图标字体以及其他的补充字体，以便正确显示所需的字体。 
+
+```xml
+<match target="pattern">
+  <test qual="any" name="family">
+    <!-- 这里是 mono 处理 -->
+  	<string>mono</string>
+  </test>
+  <edit name="family" mode="assign" binding="same">
+  	<string>JetBrains Mono</string>
+  	<string>Noto Sans CJK SC</string>
+  	<string>Symbols Nerd Font Mono</string>
+  	<string>monospace</string>
+  </edit>
+</match>
 ```
 
 ### 主题配置

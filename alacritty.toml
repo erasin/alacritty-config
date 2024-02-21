@@ -21,19 +21,16 @@ decorations = "none"
 dynamic_padding = true
 dynamic_title = true
 
-[window.dimensions]
-columns = 192
-lines = 52
-
-[window.padding]
-x = 2
-y = 0
+dimensions = { columns = 182, lines = 42 }
+padding = { x = 2, y = 0 }
 
 [colors]
 draw_bold_text_with_bright_colors = true
 
 [font]
-normal = { family = "Cascadia Code" }
-size = 12.0
+# ~/.config/fontconfig/font.conf
+# normal = { family = "Cascadia Code" }
+normal = { family = "JetBrains Mono" }
+size = 13.0
 glyph_offset = { x = 0, y = 1 }
 offset = { x = 0, y = 2 }

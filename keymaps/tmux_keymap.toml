@@ -14,20 +14,20 @@
 [keyboard]
 bindings = [
 
-  { key = "LBracket", mods = "Alt",         chars = "\u0001[" },
-  { key = "T",        mods = "Alt",         chars = "\u0001c" },
-  { key = "W",        mods = "Alt",         chars = "\u0001x" },
-  { key = "M",        mods = "Alt",         chars = "\u0001w" },
-  { key = "M",        mods = "Alt|Shift",   chars = "\u0001m\u001B" },
-  { key = "j",        mods = "Alt",         chars = "\u0001\b\u001B" },
-  { key = "k",        mods = "Alt",         chars = "\u0001\f\u001B" },
-  { key = "Tab",      mods = "ALT",         chars = "\u0001\t\u001B" },
-  { key = "d",        mods = "Alt",         chars = "\u0001-" },
-  { key = "D",        mods = "Alt|Shift",   chars = "\u0001_" },
-  { key = "h",        mods = "Alt|Control", chars = "\u0001h\u001B" },
-  { key = "j",        mods = "Alt|Control", chars = "\u0001j\u001B" },
-  { key = "k",        mods = "Alt|Control", chars = "\u0001k\u001B" },
-  { key = "l",        mods = "Alt|Control", chars = "\u0001l\u001B" },
+  { key = "LBracket", mods = "Alt",         chars = "\u0001[" }, # 选择模式
+  { key = "T",        mods = "Alt",         chars = "\u0001c" }, # new window 新建窗口 
+  { key = "W",        mods = "Alt",         chars = "\u0001x" }, # kill pane
+  { key = "M",        mods = "Alt",         chars = "\u0001w" }, # 窗口列表
+  { key = "M",        mods = "Alt|Shift",   chars = "\u0001m\u001B" }, # pane 最大化
+  { key = "j",        mods = "Alt",         chars = "\u0001\b\u001B" }, # window 上一个
+  { key = "k",        mods = "Alt",         chars = "\u0001\f\u001B" }, # window 下一个
+  { key = "Tab",      mods = "ALT",         chars = "\u0001\t\u001B" },  
+  { key = "d",        mods = "Alt",         chars = "\u0001-" }, # 水平 pane
+  { key = "D",        mods = "Alt|Shift",   chars = "\u0001_" }, # 垂直 pane
+  { key = "h",        mods = "Alt|Control", chars = "\u0001h\u001B" }, # 向左切换 pane
+  { key = "j",        mods = "Alt|Control", chars = "\u0001j\u001B" }, # 向下切换 pane
+  { key = "k",        mods = "Alt|Control", chars = "\u0001k\u001B" }, # 向上切换 pane
+  { key = "l",        mods = "Alt|Control", chars = "\u0001l\u001B" }, # 向右切换 pane
   { key = "H",        mods = "Alt|Shift",   chars = "\u0001H\u001B" },
   { key = "J",        mods = "Alt|Shift",   chars = "\u0001J\u001B" },
   { key = "K",        mods = "Alt|Shift",   chars = "\u0001K\u001B" },
